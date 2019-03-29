@@ -1,0 +1,269 @@
+body {
+  margin: 0px;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #dae5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  border: 0;
+  padding: 0;
+  height: 70px;
+  width: 99vw;
+  background-color: #663bc9;
+  color: white;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-box{
+  
+}
+
+.page-1 {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-content: center
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 80px;
+}
+
+.logo {
+  position: absolute;
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text {
+  margin-left: 30px;
+}
+
+.top-logo {
+  position: fixed;
+  left: 20px;
+}
+
+.menu-links {
+  border: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-content: space-between;
+  text-transform: uppercase;
+}
+
+.link {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+
+.right-menu{
+  position: fixed;
+  right: 50px;
+}
+
+.subscribe {
+  border-radius: 50px;
+  font-size: 10px;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 0;
+  text-transform: uppercase;
+  padding: 10px 25px;
+}
+
+.menu-open {
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  padding: 5px 8px;
+}
+
+.logo-image {
+  height: 50px;
+  width: 50px;
+}
+
+.page-content {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column; 
+  text-align: center;
+}
+
+h1 {
+  font-size: 64px
+}
+
+h2 {
+  font-size: 42px
+}
+
+.page-1-text {
+  width: 40vw;
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+.learn-more {
+  border-radius: 50px;
+  font-size: 12px;
+  background-color: #f80051;
+  color: white;
+  text-transform: uppercase;
+  border: 0;
+  box-shadow: 0;
+  padding: 20px 50px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 15px;
+  bottom: 0px;
+}
+
+.social-media-button {
+  height: 50px;
+  width: 50px;
+  margin: 15px;
+  background-color: transparent;
+  border-radius: 25px;
+  border: 2px solid black;
+  box-shadow: 0;
+}
+
+.category-page {
+  width: 97vw;
+  height: 500px;
+  background-color: white;
+  margin-top: 120px;
+}
+
+.image-size {
+  height: 100px;
+  width: 75px;
+}
+
+.dummy-image-1{
+  height: 600px;
+  width: 500px;
+  background-color: #1b0042;
+}
+.dummy-image-2{
+  height: 600px;
+  width: 500px;
+  background-color: #d83b70;
+}
+.dummy-image-3{
+  height: 600px;
+  width: 500px;
+  background-color: #407781;
+}
+.dummy-image-4{
+  height: 600px;
+  width: 500px;
+  background-color: #f0babc;
+}
+.dummy-image-5{
+  height: 600px;
+  width: 500px;
+  background-color: 
+  #fcb094;
+}
+.dummy-image-6{
+  height: 600px;
+  width: 500px;
+  background-color: #373867;
+}
+
+.other-pages {
+  width: 97vw;
+  height: 800px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.article-content-right {
+  margin-left: 100px;
+  width: 500px;
+}
+
+.article-text {
+  width: 500px;
+}
+
+.read-book {
+  background-color: #01838f;
+  border-radius: 50px;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0;
+  border: 0;
+  padding: 15px 35px;
+  font-weight: 700;
+}
+
+.article-content-left{
+  margin-right: 100px;
+  width: 500px;
+}
+
+.about{
+  background-color: white;
+  width: 97vw;
+  text-align: center;
+  font-size: 48px;
+  padding-bottom: 50px;
+}
+
+.author-pages{
+  width: 97vw;
+  height: 800px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.author-name{
+  font-size: 24px;
+}
+
+.author-photo{
+  height: 100px;
+  width: 100px;
+}
+
+.authors{
+  display: flex;
+  align-content: space-around;
+}
+
+.author{
+  position: relative;
+  width: 20vw;
+  padding: 0 100px;
+}
